@@ -13,7 +13,7 @@ body {
 .card {
     height: 400px;
     width: 500px;
-    background-image: url(./landscape.jpg);
+    background-image: url('./landscape.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ body {
     transition: 0.3s;
 }
 
-.card-wrapper h2 {
+ .card-wrapper h2 {
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -67,7 +67,7 @@ body {
     filter: unset;
 }
 
-.card > .card-wrapper::before {
+.card:hover > .card-wrapper::before {
     height: 300px;
     width: 400px;
     opacity: 1;
