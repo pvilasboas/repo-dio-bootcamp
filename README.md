@@ -1,1 +1,1 @@
-# repo-dio-bootcamp
+# repo-dio-tqi-fullstack-bootcamp
